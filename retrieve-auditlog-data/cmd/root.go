@@ -1,6 +1,3 @@
-// SPDX-FileCopyrightText: 2020 SAP SE or an SAP affiliate company and kyma-runtime-extension-samples
-// SPDX-License-Identifier: Apache-2.0
-
 // Package cmd implements the CLI commands for the auditlog tool.
 package cmd
 
