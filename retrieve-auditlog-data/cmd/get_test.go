@@ -27,11 +27,11 @@ type auditLogRecord struct {
 
 // auditLogMessage mirrors the structure of the JSON-encoded message field.
 type auditLogMessage struct {
-	UUID          string                 `json:"uuid"`
-	User          string                 `json:"user"`
-	Time          string                 `json:"time"`
-	IP            string                 `json:"ip"`
-	Data          string                 `json:"data"`
+	UUID          string         `json:"uuid"`
+	User          string         `json:"user"`
+	Time          string         `json:"time"`
+	IP            string         `json:"ip"`
+	Data          string         `json:"data"`
 	Attributes    []any          `json:"attributes"`
 	ID            string         `json:"id"`
 	Category      string         `json:"category"`

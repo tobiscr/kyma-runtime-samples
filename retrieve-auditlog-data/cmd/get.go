@@ -148,9 +148,9 @@ func readResponse(resp *http.Response) ([]byte, error) {
 // The client automatically fetches and refreshes the bearer token as needed.
 func newClient() (*http.Client, error) {
 	cfg := &clientcredentials.Config{
-		ClientID:     config.serviceBinding.UAA.ClientID,
-		ClientSecret: config.serviceBinding.UAA.ClientSecret,
-		TokenURL:     config.serviceBinding.UAA.URL + "/oauth/token",
+		ClientID:     config.serviceBinding.ClientID,
+		ClientSecret: config.serviceBinding.ClientSecret,
+		TokenURL:     config.serviceBinding.TokenURL + "/oauth/token",
 	}
 
 	tokenSource := cfg.TokenSource(context.TODO())
