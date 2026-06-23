@@ -54,7 +54,7 @@ go run main.go get \
 go run main.go get --bindingFile /path/to/my-binding.json
 ```
 
-### Save output to a file
+### Save Output to a File
 
 ```bash
 go run main.go get --time-from 2026-06-01T00:00:00 --time-to 2026-06-22T23:59:59 > logs.json
