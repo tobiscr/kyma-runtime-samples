@@ -32,7 +32,7 @@ Place your service binding file in the project directory as `servicebinding.json
 go run main.go get
 ```
 
-### Get logs for a specific time range
+### Get Logs for a Specific Time Range
 
 All times are in UTC, format `YYYY-MM-DDTHH:MM:SS`.
 
