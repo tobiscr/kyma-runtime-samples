@@ -40,7 +40,7 @@ All times are in UTC, format `YYYY-MM-DDTHH:MM:SS`.
 go run main.go get --time-from 2026-06-01T00:00:00 --time-to 2026-06-22T23:59:59
 ```
 
-### Get logs for the last 15 minutes
+### Get Logs for the Last 15 Minutes
 
 ```bash
 go run main.go get \
