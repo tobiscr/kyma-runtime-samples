@@ -72,7 +72,7 @@ go run main.go get --time-from 2026-06-01T00:00:00 --time-to 2026-06-22T23:59:59
 
 Records are printed as pretty-printed JSON, one page at a time. Each record contains fields such as **message_uuid**, **time**, **category**, **user**, and a **message** field with the full event detail.
 
-Categories you may see:
+You may see the following categories:
 
 - `audit.security-events` — login attempts, token issuance
 - `audit.configuration` — configuration changes
