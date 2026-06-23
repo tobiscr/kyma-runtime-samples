@@ -48,7 +48,7 @@ go run main.go get \
   --time-to   $(date -u '+%Y-%m-%dT%H:%M:%S')
 ```
 
-### Use a different binding file
+### Use a Different Binding File
 
 ```bash
 go run main.go get --bindingFile /path/to/my-binding.json
