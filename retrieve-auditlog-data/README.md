@@ -26,7 +26,7 @@ Place your service binding file in the project directory as `servicebinding.json
 
 ## Usage
 
-### Get logs (service default time range)
+### Get Logs with the Service Default Time Range
 
 ```bash
 go run main.go get
