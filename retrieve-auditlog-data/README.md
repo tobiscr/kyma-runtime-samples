@@ -9,7 +9,7 @@ The tool connects to your SAP BTP Audit Log Service instance and downloads audit
 ## Prerequisites
 
 - [Go 1.21+](https://go.dev/dl/) installed
-- A service binding file for the `auditlog-management` service instance (see [SAP BTP documentation](https://help.sap.com/docs/btp/sap-business-technology-platform/audit-log-retrieval-api-for-global-accounts-in-cloud-foundry-environment))
+- A service binding file for the `auditlog-management` service instance (see [Audit Log Retrieval API for Global Accounts in the Cloud Foundry Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/audit-log-retrieval-api-for-global-accounts-in-cloud-foundry-environment))
 
 ## Setup
 
