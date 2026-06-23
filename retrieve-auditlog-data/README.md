@@ -2,7 +2,7 @@
 
 Audit log CLI is a command-line tool to retrieve audit logs from the [SAP Audit Log Service](https://help.sap.com/docs/btp/sap-business-technology-platform/audit-log-retrieval-api-usage-for-subaccounts-in-cloud-foundry-environment) on SAP Business Technology Platform (BTP).
 
-## What it does
+## What It Does
 
 The tool connects to your SAP BTP Audit Log Service instance and downloads audit log records as JSON. You can filter by time range to narrow down what you retrieve. If the result is large, all pages are fetched and printed automatically.
 
