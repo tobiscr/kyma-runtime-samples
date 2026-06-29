@@ -4,6 +4,6 @@ package cmd
 type serviceBinding struct {
 	URL          string `json:"url"`
 	TokenURL     string `json:"tokenUrl"`
-	ClientID     string `json:"clientId"`
+	ClientID     string `json:"clientID"`
 	ClientSecret string `json:"clientSecret"`
 }

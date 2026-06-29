@@ -19,7 +19,7 @@ Place your service binding file in the project directory as `servicebinding.json
 {
   "url": "https://<your-auditlog-service>.cfapps.<region>.hana.ondemand.com",
   "tokenUrl": "https://<your-subdomain>.authentication.<region>.hana.ondemand.com",
-  "clientId": "<your-client-id>",
+  "clientID": "<your-client-ID>",
   "clientSecret": "<your-client-secret>"
 }
 ```
