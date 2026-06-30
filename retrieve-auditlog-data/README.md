@@ -84,3 +84,4 @@ You may see the following categories:
 - The service returns up to 500 records per page. The tool follows pagination automatically so you always get the full result.
 - Logs are not immediately available after an event occurs — there may be a short delay before they appear.
 - The API rate limit is 4–8 requests per second, depending on your region. For large time ranges, this is handled transparently.
+
